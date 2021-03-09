@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+<title>Formulaire</title>
+</head>
+
+<body>
+  <form>
+    <fieldset class="part1">
+<legend class="legend1">Votre identité</legend>
+  <ol>
+<li><label for="Nom">Nom:</label>
+<input id="Nom" type="text" name="Nom" placeholder=Nom></li>
+<li><label for="Prénom">Prénom:</label>
+<input id="Prénom" type="text" name="Prénom" placeholder="Prénom"></li>
+<li><label for="email">Adresse mail:</label>
+  <input id="email" type="text" name="email" placeholder="Adresse mail"></li>
+</ol> </fieldset>
+
+ <fieldset class="part2">
+   <legend class="legend2">Adresse de livraison</legend>
+  <ol>
+<li><label for="Adresse">Adresse:</label>
+  <textarea id="Adresse" type="text" name="Adresse" placeholder=""></textarea></li>
+<li><label for="Code Postal">Code Postal:</label>
+<input id="Code_postal" type="text" name="Code_postal" placeholder="Code Postal"></li>
+<li><label for="Ville">Ville:</label>
+  <input id="Ville" type="text" name="Ville" placeholder="Ville"></li></ol></fieldset>
+
+<fieldset class="part3">
+<legend class="legend3">Information de réglement</legend>
+<ol>
+<li><label for="Type_de_carte">Type de Carte:</label>
+  <ol>
+<li><input type="radio"id="visa" name="carte" value="visa">
+    <label for="visa">Visa</label></li>
+<li><input type="radio"id="mastercard" name="carte" value="mastercard">
+  <label for="mastercard">Mastercard</label></li>
+  </ol>
+<li><label for="Numéro_de_carte">Numéro de carte:</label>
+<input id="Numéro_de_carte" type="number" name="Numéro_de_carte" placeholder="Numéro de carte"></li>
+<li><label for="Code_de_sécurité">Code de sécurité:</label>
+<input id="Code_de_sécurité" type="number" name="Code_de_sécurité" placeholder="Code de sécurité"></li>
+<li><label for="Nom_du_titulaire">Nom du titulaire:</label>
+<input id="Nom_du_titulaire" type="text" name="Nom_du_titulaire" placeholder="Nom du titulaire"></li> </ol></fieldset>
+<button>J'achète!</button>
+</form>
+   </body>
+</html>
